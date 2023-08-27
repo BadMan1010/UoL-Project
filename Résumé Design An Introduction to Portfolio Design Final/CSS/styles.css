@@ -1,0 +1,260 @@
+/* Misc Styling for things like icons */
+.fa-phone{
+    color: #ffbd17;
+    margin-right: 15px;
+}
+
+.fa-envelope{
+    color: #FFBD17;
+    margin-right: 15px;
+}
+
+.fa-location-pin{
+    color: #FFBD17;
+    margin-right: 17px;
+}
+
+.fa-linkedin{
+    color: white;
+    text-align: left;
+}
+
+.fa-linkedin:hover{
+    color: #002C42;
+}
+
+.fa-facebook{
+    color: white;
+    text-align: left;
+}
+
+.fa-facebook:hover{
+    color: #002C42;
+}
+
+.fa-twitter{
+    color: white;
+    text-align: left;
+}
+
+.fa-twitter:hover{
+    color: #002C42;
+}
+
+/* Global styling */
+h3{
+    color: #002C42;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    color:#002C42;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.main_body {
+    width: 70%;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;    
+}
+
+/* HEADER STYLING */
+.Main_Header{
+    background-color: #FFBD17;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    z-index: 1;   
+    position: absolute;
+    margin-top: 90px;
+}
+
+.Header_Horizontal_Line{
+    border: 1.5px solid white;
+}
+
+.First_Name{
+    color: white;
+    font-size: 0.8em;
+}
+
+.Last_Name{
+    font-size: 1.3em;
+}
+
+.Prof_Title{
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+/* 2. Flexbox (MAIN)  */
+.Flexbox_Container{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 5%;
+}
+
+.Flexbox_Horizontal_Lines{
+    border: 1px solid #FFBD17;
+}
+
+/* 2A LEFT COLUMN */
+.Left_Column{
+    background-color: #FFF9EB;
+    flex-basis: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 240px;
+    margin-top: 15px;
+    padding-bottom: 230px;
+}
+
+/* Left Column Elements */
+.Contacts{
+    padding-bottom: 20px;
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+}
+
+.Education_General_Element{
+    padding-bottom: 20px;
+}
+
+.h4_default{
+    font-size: 1em;
+    color: #002C42;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.Skills{
+    line-height: 1.85em;
+}
+
+.Skills ul li{
+    position: relative;
+    left: -25px;
+}
+
+/* Right Column */
+.Right_Column{
+    background-color: white;
+    flex-basis: 65%;
+}
+
+.image{
+    width: 100%;
+    height: 400px;
+    background-color: #B1B2AB;
+    text-align: center;
+    background-image: url("../img/photo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: auto;
+}
+
+.Profile{
+    font-size: 0.85em;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+.Work_EXP_Grid{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 50px;
+}
+
+.grid_item_1{
+    border-right: solid 3px #ffbd17;
+    padding-right: 50px;
+}
+
+.grid_item_2{
+    padding-left: 50px;
+}
+
+.Job_Description{
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+.Address{
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
+/* Footer */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFBD17;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.button{
+    background-color: #002C42;
+    color: white;
+    border-color: white;
+    margin-right: 40px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: right;
+}
+
+.button:hover{
+    background-color: white;
+    color: #002C42;
+    border-color: #002C42;
+}
+
+/* Report Styling Only Below */
+.button_2{
+    background-color: #002C42;
+    color: white;
+    border-color: #FFBD17;
+    margin-right: 40px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.button_2:hover{
+    background-color: #FFBD17;
+    color: #002C42;
+    border-color: #002C42;
+}
+
+.Resume_Header{
+    text-align: center;
+    background-color: #FFBD17;
+    font-size: 1.3em;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    margin-top: 10px;
+}
+
+.span_name{
+    color: white;
+}
+
+.bottom_page{
+    margin-bottom: 100px;
+}
+
+.report_body{
+    width: 70%;
+}
